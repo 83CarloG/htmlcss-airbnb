@@ -4,16 +4,16 @@
   padding: 0px;
 }
 
-body {
-  margin-left: 28px;
-}
+/* body {
+  margin-left: 20px;
+} */
 
 .city {
   position: relative;
-  width: calc(100% - 20px);
+  width: calc(100%-20px);
   height: 100vh;
-  margin-bottom: 20px;
-  box-shadow:  3px 3px 5px black;
+  margin: 20px;
+  box-shadow:  5px 5px 5px black;
 }
 /* city's image cover */
 #novara {
