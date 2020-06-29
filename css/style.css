@@ -4,23 +4,29 @@
   padding: 0px;
 }
 
+body {
+  margin-left: 8px;
+}
+
 .city {
   position: relative;
   width: calc(100% - 20px);
   height: 100vh;
   margin-bottom: 20px;
-  background-size: cover;
   box-shadow:  3px 3px 5px black;
 }
 
 #novara {
   background: url(../img/novara.jpg) no-repeat;
+  background-size: cover;
 }
 #biella {
   background: url(../img/biella.jpeg) no-repeat;
+  background-size: cover;
 }
 #vercelli {
-  background: url(../img/vercelli.jpg) no-repeat ;
+  background: url(../img/vercelli.jpg) no-repeat;
+  background-size: cover;
 }
 
 
