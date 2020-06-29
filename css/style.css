@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-left: 8px;
+  margin-left: 28px;
 }
 
 .city {
@@ -15,7 +15,7 @@ body {
   margin-bottom: 20px;
   box-shadow:  3px 3px 5px black;
 }
-
+/* city's image cover */
 #novara {
   background: url(../img/novara.jpg) no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ body {
   background-size: cover;
 }
 
-
+/* second background */
 .layover {
   position: absolute;
   top: 0;
@@ -38,7 +38,7 @@ body {
   height: 100%;
   background: rgba(0,0,0,0.4);
 }
-
+/* h2 shadows */
 .city-name {
   position: absolute;
   top: 50%;
