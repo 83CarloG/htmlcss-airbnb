@@ -14,30 +14,37 @@
   height: 100vh;
   margin: 20px;
   box-shadow:  5px 5px 5px black;
+  background-size: cover;
 }
 /* city's image cover */
 #novara {
-  background: url(../img/novara.jpg) no-repeat;
-  background-size: cover;
+  background-image: url(../img/novara.jpg);
 }
 #biella {
-  background: url(../img/biella.jpeg) no-repeat;
-  background-size: cover;
+  background-image: url(../img/biella.jpeg);
+
 }
 #vercelli {
-  background: url(../img/vercelli.jpg) no-repeat;
-  background-size: cover;
+background-image: url(../img/vercelli.jpg);
 }
 
 /* second background */
 .layover {
   position: absolute;
+  /* insert for next change */
   top: 0;
   left: 0;
+  /* /insert for next change */
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4);
 }
+
+.layover:hover {
+  background-color: rgba(0,0,0,0);
+
+}
+
 /* h2 shadows */
 .city-name {
   position: absolute;
